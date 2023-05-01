@@ -1,0 +1,128 @@
+main {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-header {
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.all-skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.all-skills {
+    border: 1px solid #61bdb5;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    font-weight: 50;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+.skills-direction {
+    font-weight: 50;
+    color: #b4d6fd;
+    padding-left: 5px;
+}
+
+.fa-laptop-code {
+    font-size: 10rem;
+    color: #162431;
+    margin-bottom: 80px;
+    opacity: 0.4;
+}
+
+h3,
+.education-header {
+    font-weight: 500;
+}
+
+
+
+.education {
+    position: relative;
+    width: 70%;
+}
+
+.education-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-evenly;
+}
+
+.programming-course {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #162431;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.course-information {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.course-information-description {
+    font-weight: 100;
+    font-size: 16px;
+    display: inline-block;
+    color: rgba(165, 211, 226, 0.925);
+}
+
+.course-date {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-information span,
+.course-date span {
+    font-size: 16px;
+    display: block;
+    font-weight: 200;
+    font-family: 'Charm', cursive;
+    color: #66d3ca;
+}
+
+.fa-square {
+    padding-right: 10px;
+}

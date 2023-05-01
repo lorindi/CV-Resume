@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer p {
+    background-color: #3c6c9946;
+    border-radius: 100px;
+    padding: 2px 20px;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgba(240, 248, 255, 0.938);
+}
+
+.footer span {
+    font-family: 'Charm', cursive;
+    color: #6dc4eccb;
+    font-size: 18px;
+   
+}
+
+.footer li {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #295052d3;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
