@@ -9,7 +9,6 @@ body {
     align-items: center;
     flex-direction: column;
     color: #ADB3B5;
-    margin-top: 20px;
     font-family: 'Barlow', sans-serif;
     letter-spacing: 1.5px;
 
@@ -23,8 +22,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 900px;
-    height: 1100px;
+    width: 885px;
+    height: 1295px;
 
 
 }
