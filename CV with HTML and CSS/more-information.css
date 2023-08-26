@@ -1,23 +1,24 @@
 .footer {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     gap: 40px;
 }
 
 .footer p {
-    background-color: #3c6c9946;
+    background-color: #79b6c6c4;
     border-radius: 100px;
     padding: 2px 20px;
     font-size: 16px;
-    font-weight: 100;
-    color: rgba(240, 248, 255, 0.938);
+    font-weight: 500;
+    color: white;
 }
 
 .footer span {
-    font-family: 'Charm', cursive;
     color: #6dc4eccb;
     font-size: 18px;
-   
+    font-style: italic;
+    font-weight: 500;
 }
 
 .footer li {
@@ -27,9 +28,17 @@
     align-items: center;
 
 }
+.footer li h4{
+    font-weight: 500;
+
+}
 
 footer {
-    background-color: #295052d3;
+
+    box-shadow: 0px 0px 3px 1px #0f8a809d;
     border-radius: 100px;
     padding: 10px 20px;
+    background-color: white;
+    width: 840px;
+
 }

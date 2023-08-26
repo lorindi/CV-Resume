@@ -1,0 +1,117 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    background-color: #162431cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.856);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    background:  #F7F7F7;
+    width: 885px;
+    height: 1290px;
+    padding: 10px;
+
+}
+.information-and-contacts {
+
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.information-and-contacts img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 140px;
+    height: auto;
+    border: 5px solid white;
+    outline: 1px solid #0F8A80;
+    margin-right: 10px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 1px #0f8a809d;
+    border-radius: 100px;
+    height: 155px;
+    width: 550px;
+    background-color: white;
+}
+
+.introduction-content {
+    width: 350px;
+    padding-left: 50px;
+ 
+}
+
+.introduction-name {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 30px;
+
+}
+
+.introduction-specialization {
+    font-weight: 500;
+    color: #4394a8;
+    font-size: 15px;
+}
+
+.introduction-new-passion {
+    font-weight: 400;
+    width: 280px;
+    color: gray;
+    font-size: 14px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.social-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social-contacts p a {
+    color: #4394a8;
+    text-decoration: none;
+}
+
+.fa-envelope,
+.fa-linkedin,
+.fa-github,
+.fa-mobile-screen {
+    margin-left: 5px;
+    color: #59a5b8;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
